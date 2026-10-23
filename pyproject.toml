@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trace-uasn"
+version = "1.0.0"
+description = "Reference implementation of the TRACE cross-layer framework for UASNs."
+readme = "README.md"
+authors = [
+    {name = "A. Hussain", email = "altafkfm74@gmail.com"},
+    {name = "S. Li", email = "lishuaiyong@cqupt.edu.cn"},
+    {name = "M. Jamjoom"},
+    {name = "Z. Ullah"},
+]
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "scipy>=1.11", "pyyaml>=6.0"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8"]
+test = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+include = ["trace*", "scripts*"]

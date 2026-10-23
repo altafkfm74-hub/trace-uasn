@@ -1,0 +1,33 @@
+deployment:
+  W: 1000.0
+  H: 1000.0
+  D: 500.0
+nodes:
+  n: 50
+  drift_mps: 0.05
+auvs:
+  n: 8
+  speed_mps: 2.0
+  beacon_s: 10.0
+traffic:
+  lambda_min: 5.0
+  lambda_max: 35.0
+phy:
+  c0_mps: 1500.0
+  B_hz: 10000.0
+  f_khz: 18.0
+  N0: 1.0e-15
+mac:
+  csma: true
+arq:
+  max_tx: 4
+  eta_th: 0.40
+energy:
+  E0_J: 1000.0
+  P_tx_W: 2.0
+  P_rx_W: 0.75
+  P_idle_W: 0.10
+forwarder:
+  weights: [0.35, 0.25, 0.15, 0.15, 0.10]
+  dz_max: 100.0
+  N_tx_max: 5.0

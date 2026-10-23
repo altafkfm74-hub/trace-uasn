@@ -1,0 +1,7 @@
+name: dhas_mac
+source: paper
+reference: see trace/baselines/dhas_mac.py header
+default_params:
+  eta_th: 0.40
+  dz_max: 100.0
+  N_tx_max: 5.0

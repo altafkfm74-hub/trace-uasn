@@ -1,0 +1,7 @@
+name: bomt
+source: paper
+reference: see trace/baselines/bomt.py header
+default_params:
+  eta_th: 0.40
+  dz_max: 100.0
+  N_tx_max: 5.0
