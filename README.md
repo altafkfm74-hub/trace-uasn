@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23598713.svg)](https://doi.org/10.5281/zenodo.23598713)
 # TRACE — Tracking-Regulated Multi-AUV Coordinated Localization-Confidence
 #         and Energy-Efficient Cross-Layer Routing for Underwater Sensor Networks
 
