@@ -16,3 +16,6 @@ year: 2026
 version: "1.0.0"
 license: MIT
 repository-code: "https://github.com/<user>/trace-uasn"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23598713
